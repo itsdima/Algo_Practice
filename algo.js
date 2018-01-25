@@ -10,3 +10,15 @@ function DoubleUp(arr){
 	return arr; 
 }
 console.log(DoubleUp([7,4,10]))
+
+function reverse(arr){
+	var temp; 
+	for (var i = 0; i < arr.length/2; i++) {
+		temp = arr[i];
+		arr[i] = arr[arr.length-1-i]; 
+		arr[arr.length-1-i]=temp
+	}
+	return arr; 
+}
+
+console.log(reverse([2,4,6,8]))

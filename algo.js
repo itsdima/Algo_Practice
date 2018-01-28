@@ -11,6 +11,7 @@ function DoubleUp(arr){
 }
 console.log(DoubleUp([7,4,10]))
 
+//to reverse an array
 function reverse(arr){
 	var temp; 
 	for (var i = 0; i < arr.length/2; i++) {
